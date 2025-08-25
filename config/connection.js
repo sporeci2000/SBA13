@@ -19,5 +19,4 @@ async function connectDatabase() {
 // Immediately call the function once this file is required
 connectDatabase();
 
-// Export mongoose so other files can use the same connection
-module.exports = mongoose;
+//module.exports = mongoose;
