@@ -21,8 +21,8 @@ const productSchema = new Schema(
             required: [true, 'Product price is required.'],
             // custom validator ensures strictly greater than 0
             validate: {
-                validator: (v) => v > 0,
-                message: 'Price must be greater than 0.',
+                validator: (value) => value > 0,
+                message: 'Price must be greater than 0.'
             },
         },
 
