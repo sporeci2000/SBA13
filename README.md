@@ -1,0 +1,2 @@
+This project is a simple Product API built with Node.js, Express, and MongoDB. It allows you to manage products by creating, reading, updating, and deleting them (CRUD). I also added extra features like filtering, sorting, and pagination so you can test more advanced queries. You can run the server locally and use Postman to test the different endpoints, such as adding a new product, getting all products, or updating one. This project helped me practice working with backend development, routes, and connecting to a database.
+
